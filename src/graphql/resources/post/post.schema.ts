@@ -2,7 +2,7 @@ const postTypes = `
 
   type Post {
     id: ID!
-    title: Sring!
+    title: String!
     content: String!
     photo: String
     author: User!
@@ -12,7 +12,7 @@ const postTypes = `
   }
 
   input PostInput {
-    title: Sring!
+    title: String!
     content: String!
     photo: String!
     author: Int!

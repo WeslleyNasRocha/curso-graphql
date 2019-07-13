@@ -2,7 +2,7 @@ const userTypes = `
   # User definition type  
   type User {
     id: ID!
-    name: Sring!
+    name: String!
     email: String!
     photo: String
     createAt: String!
